@@ -40,7 +40,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="bigheader">🚀 AI-Enhanced Instagram Intelligence</div>', unsafe_allow_html=True)
+st.markdown('<div class="bigheader">IG Insights</div>', unsafe_allow_html=True)
 
 # ==========================
 # INPUTS
