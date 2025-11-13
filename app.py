@@ -8,7 +8,14 @@ import numpy as np
 import plotly.express as px
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
- 
+
+
+st.set_page_config(
+    page_title="InstAnalytics - FREE+",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 st.set_page_config(page_title="InstAnalytics - FREE+", layout="wide")
 st.markdown("""
 <style>
@@ -291,3 +298,4 @@ if st.button("Analyze"):
  
     st.balloons()
  
+
