@@ -22,3 +22,5 @@ def analyze_user(data: UserRequest):
     # call your scraping logic here
     results = {"followers": 12000, "engagement": 4.5}
     return {"user": user, "analysis": results}
+
+# uvicorn main:app --reload --host 0.0.0.0 --port 8000
