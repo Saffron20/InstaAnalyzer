@@ -1,7 +1,12 @@
 streamlit
 pandas
 requests
+numpy
+plotly
 scikit-learn
 openpyxl
-plotly
-numpy
+textblob
+wordcloud
+matplotlib
+ 
+ 
